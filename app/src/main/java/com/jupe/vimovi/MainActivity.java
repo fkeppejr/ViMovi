@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /*
+        CODIGO GERADO AUTOMATICAMENTE PELO ANDROID STUDIO
         // Create the next level button, which tries to show an interstitial when clicked.
         mNextLevelButton = ((Button) findViewById(R.id.next_level_button));
         mNextLevelButton.setEnabled(false);
@@ -49,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Toasts the test ad message on the screen. Remove this after defining your own ad unit ID.
         Toast.makeText(this, TOAST_TEXT, Toast.LENGTH_LONG).show();
+        */
     }
 
 
@@ -119,5 +122,9 @@ public class MainActivity extends AppCompatActivity {
         mLevelTextView.setText("Level " + (++mLevel));
         mInterstitialAd = newInterstitialAd();
         loadInterstitial();
+    }
+
+    public void startAdShow(View view) {
+        setContentView(R.layout.activity_adloop);
     }
 }
