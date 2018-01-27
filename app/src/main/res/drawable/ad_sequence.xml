@@ -5,7 +5,7 @@
     <item android:drawable="@drawable/dois" android:duration="500"></item>
     <item android:drawable="@drawable/tres" android:duration="500"></item>
     <item android:drawable="@drawable/quatro" android:duration="500"></item>
-    <item android:drawable="@drawable/cinc" android:duration="500"></item>
+    <item android:drawable="@drawable/cinco" android:duration="500"></item>
     <item android:drawable="@drawable/seis" android:duration="500"></item>
     <item android:drawable="@drawable/sete" android:duration="500"></item>
 
